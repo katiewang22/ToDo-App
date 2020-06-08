@@ -15,6 +15,8 @@
 		063295BD248ED6BD008BDF80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 063295BB248ED6BD008BDF80 /* LaunchScreen.storyboard */; };
 		063295C8248ED6BD008BDF80 /* ToDo_App_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063295C7248ED6BD008BDF80 /* ToDo_App_2Tests.swift */; };
 		063295D3248ED6BD008BDF80 /* ToDo_App_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063295D2248ED6BD008BDF80 /* ToDo_App_2UITests.swift */; };
+		063295E1248EDC3A008BDF80 /* ToDoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063295E0248EDC3A008BDF80 /* ToDoTableViewController.swift */; };
+		063295E3248EDC62008BDF80 /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063295E2248EDC62008BDF80 /* ToDo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		063295CE248ED6BD008BDF80 /* ToDo App 2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ToDo App 2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		063295D2248ED6BD008BDF80 /* ToDo_App_2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo_App_2UITests.swift; sourceTree = "<group>"; };
 		063295D4248ED6BD008BDF80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		063295E0248EDC3A008BDF80 /* ToDoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableViewController.swift; sourceTree = "<group>"; };
+		063295E2248EDC62008BDF80 /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +103,11 @@
 		063295AC248ED6BB008BDF80 /* ToDo App 2 */ = {
 			isa = PBXGroup;
 			children = (
+				063295E0248EDC3A008BDF80 /* ToDoTableViewController.swift */,
 				063295AD248ED6BB008BDF80 /* AppDelegate.swift */,
 				063295AF248ED6BB008BDF80 /* SceneDelegate.swift */,
 				063295B3248ED6BB008BDF80 /* Main.storyboard */,
+				063295E2248EDC62008BDF80 /* ToDo.swift */,
 				063295B9248ED6BD008BDF80 /* Assets.xcassets */,
 				063295BB248ED6BD008BDF80 /* LaunchScreen.storyboard */,
 				063295BE248ED6BD008BDF80 /* Info.plist */,
@@ -260,6 +266,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				063295AE248ED6BB008BDF80 /* AppDelegate.swift in Sources */,
+				063295E3248EDC62008BDF80 /* ToDo.swift in Sources */,
+				063295E1248EDC3A008BDF80 /* ToDoTableViewController.swift in Sources */,
 				063295B8248ED6BB008BDF80 /* ToDo_App_2.xcdatamodeld in Sources */,
 				063295B0248ED6BB008BDF80 /* SceneDelegate.swift in Sources */,
 			);
